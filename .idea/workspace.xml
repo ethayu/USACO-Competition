@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Alts/Photoshoot_Bronze_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Race_Bronze_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Race_Bronze_Alt2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Race_Bronze_Alt3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Race_Bronze_Alt4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/race.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/race.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Photoshoot_Bronze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Race_Bronze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Word_Processor_Bronze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/word.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +36,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1UmTuseTIVZQfzX4UqQ99cnNsuD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -38,16 +56,16 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="Application.template">
-    <configuration name="Cow_Gymnastics_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cow_Gymnastics_Bronze" />
+  <component name="RunManager" selected="Application.Race_Bronze">
+    <configuration name="Photoshoot_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Photoshoot_Bronze" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Livestock_Lineup_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Livestock_Lineup_Bronze" />
+    <configuration name="Race_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Race_Bronze" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Where_Am_I_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Where_Am_I_Bronze" />
+    <configuration name="Word_Processor_Bronze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Word_Processor_Bronze" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Race_Bronze" />
+        <item itemvalue="Application.Photoshoot_Bronze" />
+        <item itemvalue="Application.Word_Processor_Bronze" />
         <item itemvalue="Application.template" />
         <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Livestock_Lineup_Bronze" />
-        <item itemvalue="Application.Where_Am_I_Bronze" />
-        <item itemvalue="Application.Cow_Gymnastics_Bronze" />
       </list>
     </recent_temporary>
   </component>
@@ -112,22 +130,34 @@
       <workItem from="1575961429667" duration="3000" />
       <workItem from="1576119063458" duration="24588000" />
       <workItem from="1577077260597" duration="5146000" />
-      <workItem from="1579313812595" duration="75000" />
+      <workItem from="1579313812595" duration="37682000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="320" y="99" key="#Project_Structure" timestamp="1575961186594">
       <screen x="0" y="23" width="1440" height="821" />
     </state>
     <state x="320" y="99" key="#Project_Structure/0.23.1440.821@0.23.1440.821" timestamp="1575961186594" />
-    <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576288585155">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579341466790">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1579341466790" />
+    <state x="505" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579322658243">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="433" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1576288585155" />
+    <state x="505" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1579322658243" />
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1579353687729">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1579353687729" />
     <state x="458" y="238" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1576288384452">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -136,54 +166,62 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="485" y="348" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1576288385896" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1578291251739">
-      <screen x="1440" y="-533" width="3840" height="2160" />
+    <state width="1638" height="344" key="GridCell.Tab.0.bottom" timestamp="1579373341580">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251739" />
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757966" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576404546886" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576315354576" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1578291251737">
-      <screen x="1440" y="-533" width="3840" height="2160" />
+    <state width="1638" height="344" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341580" />
+    <state width="1638" height="344" key="GridCell.Tab.0.center" timestamp="1579373341579">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251737" />
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757965" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576404546885" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1576315354575" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1578291251736">
-      <screen x="1440" y="-533" width="3840" height="2160" />
+    <state width="1638" height="344" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341579" />
+    <state width="1638" height="344" key="GridCell.Tab.0.left" timestamp="1579373341579">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251735" />
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757964" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576404546884" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1576315354573" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1578291251737">
-      <screen x="1440" y="-533" width="3840" height="2160" />
+    <state width="1638" height="344" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341579" />
+    <state width="1638" height="344" key="GridCell.Tab.0.right" timestamp="1579373341580">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251737" />
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757965" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576404546885" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1576315354575" />
-    <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1576404546887">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1638" height="344" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341580" />
+    <state width="1638" height="344" key="GridCell.Tab.1.bottom" timestamp="1579373341581">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576404546887" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1576315354790" />
-    <state width="1398" height="303" key="GridCell.Tab.1.center" timestamp="1576404546886">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1638" height="344" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341581" />
+    <state width="1638" height="344" key="GridCell.Tab.1.center" timestamp="1579373341580">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1576404546886" />
     <state width="1398" height="303" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1576315354789" />
-    <state width="1398" height="303" key="GridCell.Tab.1.left" timestamp="1576404546886">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1638" height="344" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341580" />
+    <state width="1638" height="344" key="GridCell.Tab.1.left" timestamp="1579373341580">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1576404546886" />
     <state width="1398" height="303" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1576315354789" />
-    <state width="1398" height="303" key="GridCell.Tab.1.right" timestamp="1576404546887">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1638" height="344" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341580" />
+    <state width="1638" height="344" key="GridCell.Tab.1.right" timestamp="1579373341581">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1576404546887" />
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1576315354789" />
+    <state width="1638" height="344" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1579373341581" />
     <state x="289" y="186" key="SettingsEditor" timestamp="1579313888360">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -194,11 +232,12 @@
     <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1575961001361" />
     <state x="399" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1577091799301" />
     <state x="399" y="266" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1576130351172" />
-    <state x="1440" y="-332" key="new project wizard" timestamp="1578291226310">
-      <screen x="1440" y="-533" width="3840" height="2160" />
+    <state x="0" y="119" key="new project wizard" timestamp="1579322664283">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="1440" y="-332" key="new project wizard/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291226310" />
     <state x="1440" y="-311" key="new project wizard/0.23.1440.877/1440.-510.3840.2137@1440.-510.3840.2137" timestamp="1578291119020" />
+    <state x="0" y="119" key="new project wizard/0.23.1680.1027@0.23.1680.1027" timestamp="1579322664283" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,6 +246,11 @@
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>
           <line>28</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Race_Bronze.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>

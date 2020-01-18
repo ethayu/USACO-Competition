@@ -1,0 +1,52 @@
+import java.io.*;
+import java.util.*;
+
+public class Race_Bronze {
+
+    static int min;
+
+    static void calculate (Queue<int[]> line, int dist, int threshold) {
+        while (!line.isEmpty()) {
+            int[] current = line.remove();
+            if (min < current[2]) continue;
+            if (current[1] >= dist) {
+                if (current[0] > threshold) continue;
+                if (min > current[2]) min = current[2];
+                continue;
+            }
+            int[] temp = new int[]{current[0] + 1, current[1] + current[0] + 1, current[2] + 1};
+            line.add(temp);
+            temp = new int[]{current[0], current[1] + current[0], current[2] + 1};
+            line.add(temp);
+            if (current[0] > 1) {
+                current = new int[]{current[0] - 1, current[1] + current[0] - 1, current[2] + 1};
+                line.add(current);
+            }
+        }
+    }
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "race";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+
+        int dist = sc.nextInt();
+        int cases = sc.nextInt();
+        for (int i = 0; i < cases; i++) {
+            min = Integer.MAX_VALUE;
+            Queue<int[]> line = new LinkedList<>();
+            //speed, place, time
+            int threshold = sc.nextInt();
+            line.add(new int[] {1, 1, 1});
+            calculate(line, dist, threshold);
+            writer.println(min);
+            }
+        writer.close();
+
+    }
+
+}
+
+
