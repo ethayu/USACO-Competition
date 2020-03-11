@@ -1,0 +1,59 @@
+import java.io.*;
+import java.util.*;
+
+public class Swap_Silver {
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "swap";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int k = sc.nextInt();
+
+        int[] cows = new int[n];
+        int[][] inputs = new int[m][2];
+
+        for (int i = 0; i < cows.length; i++) {
+            cows[i] = i + 1;
+        }
+
+        for (int i = 0; i < inputs.length; i++) {
+            inputs[i][0] = sc.nextInt();
+            inputs[i][1] = sc.nextInt();
+        }
+        int[][] versions = new int[n+1][n];
+
+        int counter = 0;
+        int[] answer = new int[n];
+
+        versions[0] = cows.clone();
+
+        outer : for (int i = 0; i < k; i++) {
+            for (int j = 0; j < inputs.length; j++) {
+                for (int l = 0; l < (inputs[j][1] - inputs[j][0]) / 2 + 1; l++) {
+                    int temp = cows[inputs[j][0] + l - 1];
+                    cows[inputs[j][0] + l - 1] = cows[inputs[j][1] - l - 1];
+                    cows[inputs[j][1] - l - 1] = temp;
+                }
+            }
+            for (int j = 0; j < cows.length; j++) {
+                if (cows[j] != j + 1) continue;
+                answer[j] = versions[k % (i + 1)][j];
+                counter++;
+            }
+            versions[i + 1] = cows.clone();
+            if (counter == n) {
+                cows = answer;
+                break outer;
+            }
+        }
+        for (int a : cows) writer.println(a);
+        writer.close();
+
+    }
+
+}

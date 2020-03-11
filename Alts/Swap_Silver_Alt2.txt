@@ -1,0 +1,63 @@
+import java.io.*;
+import java.util.*;
+
+public class Swap_Silver {
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "swap";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int k = sc.nextInt();
+
+        int[] cows = new int[n];
+        int[][] inputs = new int[m][2];
+
+        for (int i = 0; i < cows.length; i++) {
+            cows[i] = i + 1;
+        }
+
+        for (int i = 0; i < inputs.length; i++) {
+            inputs[i][0] = sc.nextInt();
+            inputs[i][1] = sc.nextInt();
+        }
+
+        int[] first = cows.clone();
+
+        String[] versions = new String[n + 1];
+
+        outer : for (int i = 0; i < k;) {
+            for (int j = 0; j < inputs.length; j++) {
+                for (int l = 0; l < (inputs[j][1] - inputs[j][0]) / 2 + 1; l++) {
+                    int temp = cows[inputs[j][0] + l - 1];
+                    cows[inputs[j][0] + l - 1] = cows[inputs[j][1] - l - 1];
+                    cows[inputs[j][1] - l - 1] = temp;
+                }
+            }
+            if (Arrays.equals(first, cows)) {
+                if (k % (i + 1) == 0) break outer;
+                String ans = versions[k % (i + 1)];
+                for (int a = 0; a < ans.length(); a++) if (ans.charAt(a) != ' ') writer.println(ans.charAt(a));
+                writer.close();
+                break outer;
+            } else {
+                String temp = "";
+                for (int j = 0; j < cows.length; j++) {
+                    temp += Integer.toString(cows[j]) + " ";
+                }
+                versions[i+1] = temp;
+                i++;
+            }
+        }
+
+        for (int i : cows) writer.println(i);
+        writer.close();
+
+    }
+
+}
+
+
