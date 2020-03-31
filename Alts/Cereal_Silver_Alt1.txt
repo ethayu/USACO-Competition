@@ -1,0 +1,50 @@
+import java.io.*;
+import java.util.*;
+
+public class Cereal_Silver {
+
+    static int[] changes;
+
+    static void binarysearch (int i, int[][] cows) {
+        if (changes[i] != -1) return;
+        int counter = 0;
+        HashSet<Integer> takencereal = new HashSet<>();
+        for (int j = i; j < cows.length; j++) {
+            if (!takencereal.contains(cows[j][0])) {
+                counter++;
+                takencereal.add(cows[j][0]);
+            } else if (!takencereal.contains(cows[j][1])) {
+                counter++;
+                takencereal.add(cows[j][1]);
+            }
+        }
+        if ((i > changes[changes.length - counter]) && (changes[changes.length - counter] != -1)) changes[changes.length - counter] = i;
+        binarysearch(i / 2, cows);
+        binarysearch((cows.length - i ) / 2, cows);
+    }
+
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "cereal";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int[][] cows = new int[sc.nextInt()][2];
+        changes = new int[sc.nextInt()];
+        Arrays.fill(changes, -1);
+
+        for (int i = 0; i < cows.length; i++) {
+            cows[i] = new int[]{sc.nextInt(), sc.nextInt()};
+        }
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+
+        binarysearch(changes.length / 2, cows);
+
+        writer.close();
+
+    }
+
+}
+
+

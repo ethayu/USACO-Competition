@@ -1,0 +1,44 @@
+        String filename = "moop";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int n = sc.nextInt();
+
+        cycles = new ArrayList<>();
+
+        moops first = new moops(sc.nextInt(), sc.nextInt());
+        cycles.add(new moops[]{new moops (first), new moops (first)});
+
+        for (int t = 1; t < n; t++) {
+            moops a = new moops(sc.nextInt(), sc.nextInt());
+            boolean nocycle = true;
+            int index = -1;
+            int i = -1;
+            HashSet <Integer> yeet = new HashSet<>();
+            for (moops[] b : cycles) {
+                i++;
+                if (b[0].one <= a.one) {
+                    if (b[1].one >= a.one) ;
+                    else if (b[1].two <= a.two) ;
+                    else continue;
+                } else if (b[0].two >= a.two) ;
+                else continue;
+                if (nocycle) {
+                    b[0].one = Math.min(b[0].one, a.one);
+                    b[1].two = Math.min(b[1].two, a.two);
+                    b[1].one = Math.max(b[1].one, a.one);
+                    b[0].two = Math.max(b[0].two, a.two);
+                    index = i;
+                    nocycle = false;
+                } else yeet.add(i);
+            }
+            if (nocycle) cycles.add(new moops[]{new moops(a), new moops(a)});
+            if (yeet.size() > 0) {
+                for (int w : yeet) delete(cycles, index, w);
+                cycles.set(index, temp.clone());
+            }
+            diff = 0;
+        }
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.println(cycles.size());
+        writer.close();

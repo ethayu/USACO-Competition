@@ -1,0 +1,49 @@
+import java.io.*;
+import java.util.*;
+
+public class MooParticle_Silver {
+
+    static class particle {
+
+        int spin1;
+        int spin2;
+
+        particle(int a, int b) {spin1 = a; spin2 = b;}
+    }
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "moop";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int n = sc.nextInt();
+        ArrayList<PriorityQueue<Integer>> al = new ArrayList<>();
+        particle[] particles = new particle[n];
+        for (int i = 0; i < n; i++) {
+            particles[i] = new particle(sc.nextInt(), sc.nextInt());
+            al.add(new PriorityQueue<Integer> (new Comparator<Integer>() {
+                @Override
+                public int compare(Integer integer, Integer t1) {
+                    return al.get(t1).size() - al.get(integer).size();
+                }
+            }));
+            for (int j = 0; j < i; j++) {
+                if (((particles[i].spin1 < particles[j].spin1) && (particles[i].spin2 < particles[j].spin2)) ||
+                        ((particles[i].spin1 > particles[j].spin1) && (particles[i].spin2 > particles[j].spin2))) {
+                    al.get(i).add(j);
+                    al.get(j).add(i);
+
+                }
+            }
+        }
+
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.println();
+        writer.close();
+
+    }
+
+}
+
+

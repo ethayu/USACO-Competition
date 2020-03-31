@@ -1,0 +1,116 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.PrintWriter;
+import java.util.*;
+
+public class SocialDistancing_Silver {
+
+    static int N, ans = -1;
+
+    public static void main (String [] args) throws FileNotFoundException
+    {
+        String fname = "socdist";
+        Scanner sc = new Scanner(new File(fname + ".in"));
+        long answer = cowdist(sc, fname);
+        sc.close();
+    }
+
+    static class patch implements Comparable<patch> {
+
+        long begin;
+        long end;
+        long distuntilnext;
+
+        public patch (long a, long b) {begin = a; end = b;}
+
+        @Override
+        public int compareTo(patch patch) {
+            return (int) (this.begin - patch.begin);
+        }
+    }
+
+    static long solve(long distmax, patch[] areas) {
+        long extraarea = areas[areas.length - 1].end % distmax;
+        if (distmax == 1) extraarea = Integer.MAX_VALUE;
+        int cows = 0;
+        long nextcow = areas[0].begin;
+        long start, end;
+
+        for (int j = 0; j < areas.length; j++) {
+            start = areas[j].begin;
+            end = areas[j].end;
+            //System.out.println("*** [" + start + ", " + end + "] " + " nextcow location " + nextcow + " ");
+            if (nextcow < start)
+            {
+                nextcow = start;
+                extraarea -= (start - nextcow);
+            }
+            else if (nextcow > end)
+            {
+                if (extraarea <= 0)
+                    break;
+                else
+                    continue;
+            }
+            long cows_in_this_area = (end - nextcow)/distmax + 1;
+            nextcow += cows_in_this_area*distmax; // add one more distance to proceed to the next cow
+            cows += cows_in_this_area;
+            long numb_cows_total_allowed = 1 + (areas[areas.length - 1].end - nextcow)/distmax + cows;
+            if ( numb_cows_total_allowed < N || extraarea <= 0)
+            {
+                break;
+            }
+            if (j > areas.length - 1) {
+                while (nextcow > areas[j + 1].end) {
+                    j++;
+                    if (j == areas.length - 1) break;
+                }
+            }
+        }
+        if ( cows >= N )
+            return distmax;
+        return -1;
+    }
+
+    static long search (patch[] areas, int begin, int end) {
+        int mid = (begin + end + 1) / 2;
+        if ((mid == begin) || (end == mid)) {
+            ans = begin;
+            return begin;
+        }
+        if (solve(mid, areas) == -1) {
+            search(areas, mid, end);
+        } else search(areas, begin, mid);
+        return 0;
+    }
+
+    static long cowdist(Scanner sc, String fname) throws FileNotFoundException
+    {
+        N = sc.nextInt();
+        int M = sc.nextInt();
+        long start = 0L;
+        long end = 0L;
+        //long biggestArea = 0L;
+        //long[][] areas = new long[M][2];
+        patch[] areas = new patch[M];
+
+        for (int i = 0; i < M; i++)
+        {
+            start = sc.nextLong();
+            end = sc.nextLong();
+            areas[i] = new patch(start, end);
+            if (i > 0) areas[i-1].distuntilnext = start - areas[i-1].end;
+            //biggestArea = Long.max(biggestArea, (end-start));
+        }
+        Arrays.sort(areas);
+        int length = areas.length;
+        long distmax = (areas[length - 1].end-areas[0].begin) / (N-1);
+
+        PrintWriter w = new PrintWriter(new File(fname + ".out"));
+        search(areas, areas.length - 1, 0);
+        w.println(ans);
+        w.close();
+        return distmax;
+    }
+
+}

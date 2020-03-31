@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+
+public class Cereal_Silver {
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "cereal";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int nofcows = sc.nextInt();
+        ArrayList<Integer>[] first = new ArrayList[sc.nextInt()];
+        ArrayList<Integer>[] second = new ArrayList[first.length];
+        HashSet<Integer> availablecereal = new HashSet<>();
+
+        for (int i = 0; i < first.length; i++) {
+            first[i] = new ArrayList<Integer>();
+            second[i] = new ArrayList<Integer>();
+        }
+
+        for (int i = 0; i < first.length; i++) {
+            first[sc.nextInt()].add(i);
+            second[sc.nextInt()].add(i);
+        }
+
+        HashSet<Integer> done = new HashSet<>();
+        HashSet<Integer> onlysecond = new HashSet<>();
+        HashSet<Integer> onlyfirst = new HashSet<>();
+
+
+        for (int i = 0; i < first.length; i++) {
+
+        }
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.close();
+
+    }
+
+}
+
+

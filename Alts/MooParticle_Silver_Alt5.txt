@@ -1,0 +1,70 @@
+import java.io.*;
+import java.util.*;
+
+public class MooParticle_Silver {
+
+    static HashSet<Integer> covered = new HashSet<>();
+
+    static class mparticle {
+
+        int spin1;
+        int spin2;
+
+        mparticle(int a, int b) {spin1 = a; spin2 = b;}
+    }
+
+    static void traverse (ArrayList<HashSet<Integer>> arraylis, Queue<Integer> stack) {
+        while (!stack.isEmpty()) {
+            covered.add(stack.peek());
+            for (int i : arraylis.get(stack.remove())) {
+                if (covered.contains(i)) continue;
+                stack.add(i);
+            }
+        }
+    }
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "moop";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int n = sc.nextInt();
+        ArrayList<HashSet<Integer>> arraylis = new ArrayList<>();
+        mparticle[] mparticles = new mparticle[n];
+        for (int i = 0; i < n; i++) {
+            mparticles[i] = new mparticle(sc.nextInt(), sc.nextInt());
+            arraylis.add(new HashSet<Integer>());
+            for (int j = 0; j < i; j++) {
+                if (arraylis.get(i).contains(j)) continue;
+                if ((mparticles[i].spin1 == mparticles[j].spin1) || (mparticles[i].spin2 == mparticles[j].spin2) ||
+                        ((mparticles[i].spin1 < mparticles[j].spin1) && (mparticles[i].spin2 < mparticles[j].spin2)) ||
+                        ((mparticles[i].spin1 > mparticles[j].spin1) && (mparticles[i].spin2 > mparticles[j].spin2))) {
+                    arraylis.get(i).add(j);
+                    arraylis.get(j).add(i);
+                    for (int a : arraylis.get(j)) {
+                        arraylis.get(i).add(a);
+                        arraylis.get(a).add(i);
+                    }
+                }
+            }
+        }
+
+        int isolated = mparticles.length - arraylis.size();
+        int ans = isolated;
+
+        for (int i = 0; i < arraylis.size(); i++) {
+            if (covered.contains(i)) continue;
+            Queue<Integer> stack = new LinkedList<>();
+            stack.add(i);
+            traverse(arraylis, stack);
+            ans++;
+        }
+
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.println(ans);
+        writer.close();
+
+    }
+
+}

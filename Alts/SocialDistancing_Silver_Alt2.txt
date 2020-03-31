@@ -1,0 +1,53 @@
+import java.io.*;
+import java.util.*;
+
+public class SocialDistancing_Silver {
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "socdist";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int nofcows = sc.nextInt();
+        int patches = sc.nextInt();
+
+        TreeMap<Long, Long> grass = new TreeMap<>();
+
+        long first = 0, last= 0;
+
+        for (int i = 0; i < patches; i++) {
+            long a = sc.nextLong();
+            long b = sc.nextLong();
+            if (i == 0) first = a;
+            if (i == patches - 1) last = b;
+            grass.put(a, b);
+        }
+
+        boolean done = false;
+
+        //for (Map.Entry<Integer, Integer> a : d2ydx2.entrySet()) {
+
+        long d = ((last - first) / (nofcows - 1));
+        while (!done) {
+            //long x = (grass[0][1] - grass[0][0]) / d + 1;
+            // long a = 0;
+            for (int i = 1; i < patches; i++) {
+                //  if (a + d - grass[i][1] > 0) continue;
+                // else if (a +  d - grass[i][0] < 0) a = grass[i][0];
+                //  else a += d;
+                //  x += (grass[i][1] - a) / d + 1;
+                //  if (x >= nofcows) {
+                done = true;
+                d++;
+                break;
+                //}
+            }
+            d -= 1;
+        }
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        // writer.println(d);
+        writer.close();
+    }
+
+}

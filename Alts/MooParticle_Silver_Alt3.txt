@@ -1,0 +1,96 @@
+import java.io.*;
+import java.util.*;
+
+public class MooParticle_Silver {
+
+    static int offset = 0;
+    static ArrayList<particle[]> groups;
+    static particle[] x = new particle[2];
+
+    static class particle implements Comparable<particle>{
+
+        int spin1;
+        int spin2;
+
+        particle(int a, int b) {spin1 = a; spin2 = b;}
+
+        @Override
+        public int compareTo(particle particle) {
+            int a = spin1 - particle.spin1;
+            if (a != 0) return a;
+            else return spin2 - particle.spin2;
+        }
+
+        public particle(particle other) {
+            this.spin1 = other.spin1;
+            this.spin2 = other.spin2;
+        }
+    }
+
+    static void delete (ArrayList<particle[]> groups, int index, int d) {
+        d -= offset;
+        x[0] = new particle(Math.min(groups.get(index)[0].spin1, groups.get(d)[0].spin1), Math.max(groups.get(index)[1].spin1, groups.get(d)[1].spin1));
+        x[1] = new particle(Math.max(groups.get(index)[0].spin2, groups.get(d)[0].spin2), Math.min(groups.get(index)[1].spin2, groups.get(d)[1].spin2));
+        groups.remove(d);
+        offset++;
+    }
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "moop";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int n = sc.nextInt();
+
+        TreeSet<particle> particles = new TreeSet<>();
+        for (int i = 0; i < n; i++) {
+            particles.add(new particle(sc.nextInt(), sc.nextInt()));
+        }
+
+        groups = new ArrayList<>();
+
+        particle first = particles.pollFirst();
+        groups.add(new particle[]{new particle (first), new particle (first)});
+
+        for (particle a : particles) {
+            boolean alone = true;
+            int index = -1;
+            int i = -1;
+            HashSet <Integer> deleted = new HashSet<>();
+            for (particle[] b : groups) {
+                boolean matches = false;
+                i++;
+                if ((b[0].spin1 == a.spin1) || (b[0].spin2 == a.spin2) || (b[1].spin1 == a.spin1) || (b[1].spin2 == a.spin2)) {
+                    matches = true;
+                } else if ((b[0].spin1 > a.spin1) && (b[0].spin2 > a.spin2)) matches = true;
+                else if ((b[0].spin1 < a.spin1) && (b[0].spin2 < a.spin2)) matches = true;
+                else if ((b[1].spin2 > a.spin2) && (b[1].spin1 > a.spin1)) matches = true;
+                else if ((b[1].spin2 < a.spin2) && (b[1].spin1 < a.spin1)) matches = true;
+                if (matches) {
+                    if (alone) {
+                        b[0].spin1 = Math.min(b[0].spin1, a.spin1);
+                        b[1].spin2 = Math.min(b[1].spin2, a.spin2);
+                        b[1].spin1 = Math.max(b[1].spin1, a.spin1);
+                        b[0].spin2 = Math.max(b[0].spin2, a.spin2);
+                        index = i;
+                        alone = false;
+                    } else deleted.add(i);
+                }
+            }
+            if (alone) groups.add(new particle[]{new particle(a), new particle(a)});
+            if (deleted.size() > 0) {
+                for (int w : deleted) delete(groups, index, w);
+                groups.set(index, x.clone());
+            }
+            offset = 0;
+        }
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.println(groups.size());
+        writer.close();
+
+    }
+
+}
+
+

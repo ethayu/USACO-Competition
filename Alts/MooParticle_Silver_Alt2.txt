@@ -1,0 +1,63 @@
+import java.io.*;
+import java.util.*;
+
+public class MooParticle_Silver {
+
+    static HashSet<Integer> traversed;
+
+    static class particle {
+
+        int spin1;
+        int spin2;
+
+        particle(int a, int b) {spin1 = a; spin2 = b;}
+    }
+
+    static void dfs (ArrayList<ArrayList<Integer>> al, int index) {
+        traversed.add(index);
+        for (int i = 0; i < al.get(index).size(); i++) {
+            if (traversed.contains(i)) continue;
+            dfs(al, i);
+        }
+    }
+
+    public static void main (String [] args) throws FileNotFoundException {
+
+        String filename = "moop";
+        Scanner sc = new Scanner(new File(filename + ".in"));
+
+        int n = sc.nextInt();
+        ArrayList<ArrayList<Integer>> al = new ArrayList<>();
+        particle[] particles = new particle[n];
+        for (int i = 0; i < n; i++) {
+            particles[i] = new particle(sc.nextInt(), sc.nextInt());
+            al.add(new ArrayList<Integer>());
+            for (int j = 0; j < i; j++) {
+                if ((particles[i].spin1 == particles[j].spin1) || (particles[j].spin2 == particles[j].spin2) ||
+                        ((particles[i].spin1 < particles[j].spin1) && (particles[i].spin2 < particles[j].spin2)) ||
+                        ((particles[i].spin1 > particles[j].spin1) && (particles[i].spin2 > particles[j].spin2))) {
+                    al.get(i).add(j);
+                    al.get(j).add(i);
+                }
+            }
+        }
+
+        int isolated = particles.length - al.size();
+        int counter = isolated;
+
+        for (int i = 0; i < al.size(); i++) {
+            if (traversed.contains(i)) continue;
+            dfs(al, i);
+            counter++;
+        }
+
+
+        PrintWriter writer = new PrintWriter(new File(filename + ".out"));
+        writer.println(counter);
+        writer.close();
+
+    }
+
+}
+
+

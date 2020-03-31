@@ -4,16 +4,16 @@ import java.util.*;
 public class ClockTree_Silver {
 
     /**static boolean traverse (ArrayList[] relationships, int[] rooms, int room) {
-        rooms[room]++;
-        rooms[rooms.length - 1]++;
-        if (rooms[rooms.length - 1] == (rooms.length-1)*12) return true;
-        for (int i = 0; i < relationships[room].size(); i++) {
-            int nextroom = (int) relationships[room].get(i);
-            if (rooms[nextroom] == 12) continue;
-            if (traverse(relationships, rooms.clone(), nextroom)) return true;
-        }
-        return false;
-    }*/
+     rooms[room]++;
+     rooms[rooms.length - 1]++;
+     if (rooms[rooms.length - 1] == (rooms.length-1)*12) return true;
+     for (int i = 0; i < relationships[room].size(); i++) {
+     int nextroom = (int) relationships[room].get(i);
+     if (rooms[nextroom] == 12) continue;
+     if (traverse(relationships, rooms.clone(), nextroom)) return true;
+     }
+     return false;
+     }*/
 
     static boolean traverse (Stack<Integer> q, ArrayList[] relationships, int[] rooms) {
         if (rooms[rooms.length - 1] == (rooms.length-1)*12) return true;
