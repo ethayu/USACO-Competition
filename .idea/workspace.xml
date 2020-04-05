@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alts/Cereal_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/Cereal_Silver_Alt2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/MooParticle_Silver_Alt6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/SocialDistancing_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/SocialDistancing_Silver_Alt2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cereal.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cereal.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moop.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moop.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socdist.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socdist.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cereal_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MooParticle_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocDistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SocialDistancing_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestCaseCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clocktree.out" beforeDir="false" afterPath="$PROJECT_DIR$/clocktree.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClockTree_Silver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClockTree_Silver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SocDistTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +134,8 @@
       <workItem from="1585438937242" duration="28678000" />
       <workItem from="1585544560072" duration="287000" />
       <workItem from="1585545888854" duration="28000" />
-      <workItem from="1585545942770" duration="35689000" />
+      <workItem from="1585545942770" duration="36241000" />
+      <workItem from="1586047085314" duration="223000" />
     </task>
     <servers />
   </component>
@@ -186,6 +166,10 @@
     <state x="653" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1585625841856" />
     <state x="2186" y="242" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585372652867" />
     <state x="653" y="253" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1579353687729" />
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586047333376">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="528" y="268" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586047333376" />
     <state width="419" height="646" key="DebuggerActiveHint" timestamp="1582504312686">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -194,7 +178,6 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251739" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757966" />
     <state width="1878" height="353" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382060297" />
     <state width="1638" height="284" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1585644481162" />
     <state width="1878" height="353" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382142523" />
@@ -203,7 +186,6 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251737" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757965" />
     <state width="1878" height="353" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382060295" />
     <state width="1638" height="284" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1585644481160" />
     <state width="1878" height="353" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382142521" />
@@ -212,7 +194,6 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251735" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757964" />
     <state width="1878" height="353" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382060294" />
     <state width="1638" height="284" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1585644481158" />
     <state width="1878" height="353" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382142521" />
@@ -221,7 +202,6 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.-533.3840.2160@1440.-533.3840.2160" timestamp="1578291251737" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1577336757965" />
     <state width="1878" height="353" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382060296" />
     <state width="1638" height="284" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1585644481161" />
     <state width="1878" height="353" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1920.1080@1440.0.1920.1080" timestamp="1585382142522" />
@@ -267,11 +247,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1585636970898" />
-    <state x="466" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1585438965272">
+    <state x="466" y="288" key="com.intellij.ide.util.TipDialog" timestamp="1586047087633">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="466" y="288" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585438965272" />
-    <state x="399" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.23.1920.1057@0.23.1440.877" timestamp="1577091799301" />
+    <state x="466" y="288" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1586047087633" />
     <state x="466" y="288" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1583473337315" />
     <state x="578" y="295" key="extract.method.dialog" timestamp="1585447324108">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -300,11 +279,6 @@
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>
           <line>28</line>
           <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SocialDistancing_Silver.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>
