@@ -5,32 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Alts/Fencing_Silver_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cowntagion_Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Fencing_Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Genetics_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Replication_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stuck_Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cow_covid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pasture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/BreedFlip_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cereal_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/ClockTree_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cow_Gymnastics_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Livestock_Lineup_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$mparticle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Photoshoot_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Race_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocDistTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver$patch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/TestCaseCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Silver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Where_Am_I_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Word_Processor_Bronze.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Photoshoot_Bronze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Photoshoot_Bronze.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/BreedFlip_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/BreedFlip_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cereal_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Cereal_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/ClockTree_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/ClockTree_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cow_Gymnastics_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Cow_Gymnastics_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Livestock_Lineup_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Livestock_Lineup_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$mparticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$mparticle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Photoshoot_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Photoshoot_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Race_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Race_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver$patch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver$patch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/TestCaseCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/TestCaseCreator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Silver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Where_Am_I_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Where_Am_I_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Word_Processor_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Word_Processor_Bronze.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,70 +73,71 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.MooParticle_Silver">
-    <configuration name="Cereal_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Cereal_Silver" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Replication_Gold">
+    <configuration name="Fencing_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fencing_Silver" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MooParticle_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MooParticle_Silver" />
+    <configuration name="Replication_Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Replication_Gold" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocDistTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocDistTest" />
+    <configuration name="Stuck_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stuck_Silver" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocialDistancing_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SocialDistancing_Silver" />
+    <configuration name="pasture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pasture" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCaseCreator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestCaseCreator" />
+    <configuration name="stuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stuck" />
       <module name="USACO_Competition" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MooParticle_Silver" />
-        <item itemvalue="Application.SocialDistancing_Silver" />
-        <item itemvalue="Application.Cereal_Silver" />
-        <item itemvalue="Application.SocDistTest" />
-        <item itemvalue="Application.TestCaseCreator" />
+        <item itemvalue="Application.Replication_Gold" />
+        <item itemvalue="Application.Fencing_Silver" />
+        <item itemvalue="Application.pasture" />
+        <item itemvalue="Application.stuck" />
+        <item itemvalue="Application.Stuck_Silver" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -168,11 +177,28 @@
       <workItem from="1599425627626" duration="149000" />
       <workItem from="1599425792408" duration="1323000" />
       <workItem from="1600011497526" duration="170000" />
+      <workItem from="1608498631814" duration="3501000" />
+      <workItem from="1608505932950" duration="34015000" />
+      <workItem from="1608594265996" duration="36104000" />
+      <workItem from="1609001682522" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -201,5 +227,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/USACO_Competition$Fencing_Silver.ic" NAME="Fencing_Silver Coverage Results" MODIFIED="1608600460932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
