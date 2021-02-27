@@ -1,0 +1,62 @@
+import java.util.*;
+
+public class NoTimeToPaint_Silver {
+    static ArrayList<int[]> strokes = new ArrayList<>();
+
+    static class color implements Comparable<color> {
+
+        int shade;
+        int location1;
+
+        color(int a, int b) {
+            shade = a;
+            location1 = b;
+        }
+
+        @Override
+        public int compareTo(color o) {
+            return shade - o.shade;
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+        String fence = sc.next();
+        TreeSet<color> colors = new TreeSet<>();
+        HashSet<Integer> color = new HashSet<>();
+        int[] max = new int[26];
+        for (int i = 0; i < n; i++) {
+            max[fence.charAt(i) - 'A'] = i;
+            color temp = new color(fence.charAt(i) - 'A', i);
+            if (colors.higher(temp) == null) {
+                if (!color.contains(fence.charAt(i) - 'A')) {
+                    colors.add(temp);
+                    color.add(temp.shade);
+                }
+            } else while (colors.higher(temp) != null) {
+                color ret = colors.higher(temp);
+                colors.remove(ret);
+                color.remove(ret.shade);
+                strokes.add(new int[]{ret.location1, max[ret.shade]});
+            }
+        }
+
+        for (color ret : colors) {
+            strokes.add(new int[]{ret.location1, max[ret.shade]});
+        }
+
+        for (int i = 0; i < k; i++) {
+            int delta = 0;
+            int a = sc.nextInt() - 1;
+            int b = sc.nextInt() - 1;
+            for (int[] stroke : strokes) {
+                if (stroke[0] < a && stroke[1] > b) delta++;
+                else if (stroke[0] >= a && stroke[1] <= b) delta--;
+            }
+            System.out.println(strokes.size() + delta);
+        }
+    }
+
+}

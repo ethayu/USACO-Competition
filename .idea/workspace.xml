@@ -5,40 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alts/Fencing_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cowntagion_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fencing_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Genetics_Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Replication_Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stuck_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cow_covid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pasture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/DanceMooves_Silver_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/NoTimeToPaint_Silver_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/SpacedOut_Silver_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DanceMooves_Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NoTimeToPaint_Silver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpacedOut_Silver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/BreedFlip_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/BreedFlip_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cereal_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Cereal_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/ClockTree_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/ClockTree_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Cow_Gymnastics_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Cow_Gymnastics_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Livestock_Lineup_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Livestock_Lineup_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$info.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$mparticle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver$mparticle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/MooParticle_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Photoshoot_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Photoshoot_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Race_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Race_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver$patch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver$patch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/SocialDistancing_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Swap_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/TestCaseCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/TestCaseCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Silver.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Triangles_Silver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Where_Am_I_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Where_Am_I_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/Word_Processor_Bronze.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/Word_Processor_Bronze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/USACO_Competition/template.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +20,9 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="234" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,6 +35,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1UmTuseTIVZQfzX4UqQ99cnNsuD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -68,6 +53,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -77,51 +63,44 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MTCustomThemeConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="RecentsManager">
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Replication_Gold">
-    <configuration name="Fencing_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fencing_Silver" />
+  <component name="RunManager" selected="Application.notimetopaint">
+    <configuration name="DanceMooves_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DanceMooves_Silver" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Replication_Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Replication_Gold" />
+    <configuration name="dancemooves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dancemooves" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stuck_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stuck_Silver" />
+    <configuration name="gridcow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gridcow" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pasture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pasture" />
+    <configuration name="notimetopaint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="notimetopaint" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stuck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stuck" />
+    <configuration name="spaced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="spaced" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,15 +108,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Replication_Gold" />
-        <item itemvalue="Application.Fencing_Silver" />
-        <item itemvalue="Application.pasture" />
-        <item itemvalue="Application.stuck" />
-        <item itemvalue="Application.Stuck_Silver" />
+        <item itemvalue="Application.notimetopaint" />
+        <item itemvalue="Application.dancemooves" />
+        <item itemvalue="Application.spaced" />
+        <item itemvalue="Application.gridcow" />
+        <item itemvalue="Application.DanceMooves_Silver" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -181,33 +160,41 @@
       <workItem from="1608505932950" duration="34015000" />
       <workItem from="1608594265996" duration="36104000" />
       <workItem from="1609001682522" duration="80000" />
+      <workItem from="1611386607555" duration="38261000" />
+      <workItem from="1611617856922" duration="324000" />
+      <workItem from="1611621629726" duration="1150000" />
+      <workItem from="1611622842452" duration="15513000" />
+      <workItem from="1611707540978" duration="608000" />
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1611386704052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611386704052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="349" y="173" key="SettingsEditor" timestamp="1600011671116">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state x="349" y="173" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1600011671116" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,5 +217,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/USACO_Competition$Fencing_Silver.ic" NAME="Fencing_Silver Coverage Results" MODIFIED="1608600460932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/USACO_Competition$gridcow.ic" NAME="gridcow Coverage Results" MODIFIED="1611569535160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/USACO_Competition$NoTimeToPaint_Silver.ic" NAME="NoTimeToPaint_Silver Coverage Results" MODIFIED="1611400569488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

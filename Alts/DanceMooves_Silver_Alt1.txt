@@ -1,0 +1,65 @@
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class dancemooves {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        PrintWriter printer = new PrintWriter(System.out);
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+
+        ArrayList<HashSet<Integer>> visited = new ArrayList<>(n + 1);
+        visited.add(new HashSet<>());
+        HashSet<Integer> notgood = new HashSet<>();
+
+        int[] current = new int[n + 1];
+        int[] key = new int[n + 1];
+
+        for (int i = 0; i < n; i++) {
+            current[i + 1] = i + 1;
+            visited.add(new HashSet<>());
+            visited.get(i + 1).add(i + 1);
+        }
+
+        for (int i = 0; i < k; i++) {
+            int a = sc.nextInt();
+            int b = sc.nextInt();
+            visited.get(current[a]).add(b);
+            visited.get(current[b]).add(a);
+            int temp = current[a];
+            current[a] = current[b];
+            current[b] = temp;
+        }
+
+        for (int i = 1; i < n + 1; i++) {
+            key[current[i]] = i;
+        }
+
+        while (notgood.size() < n) {
+            for (int i = 1; i < n + 1; i++) {
+                if (!notgood.contains(current[i])) {
+                    visited.get(current[i]).addAll(visited.get(i)); //add if i is in no hashset if still not fast enough
+                    if (visited.get(current[i]).size() == n) notgood.add(current[i]);
+                }
+            }
+            int[] temp = new int[n + 1];
+            for (int i = 1; i < n + 1; i++) {
+                if (current[i] == i) notgood.add(i);
+                temp[key[i]] = current[i];
+            }
+            current = temp;
+        }
+
+        for (int i = 1; i < n + 1; i++) {
+            printer.println(visited.get(i).size());
+        }
+        printer.close();
+
+    }
+
+}
