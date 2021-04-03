@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Alts/DanceMooves_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/NoTimeToPaint_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Alts/SpacedOut_Silver_Alt1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DanceMooves_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NoTimeToPaint_Silver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpacedOut_Silver.java" afterDir="false" />
+    <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/Alts/picowso.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CounttheCows_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ModernArt3_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StoneGame_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,37 +69,37 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.notimetopaint">
-    <configuration name="DanceMooves_Silver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DanceMooves_Silver" />
+  <component name="RunManager" selected="Application.stone">
+    <configuration name="StoneGame_Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StoneGame_Gold" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dancemooves" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dancemooves" />
+    <configuration name="count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="count" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gridcow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gridcow" />
+    <configuration name="picowso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="picowso" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="notimetopaint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="notimetopaint" />
+    <configuration name="stone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stone" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spaced" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="spaced" />
+    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.notimetopaint" />
-        <item itemvalue="Application.dancemooves" />
-        <item itemvalue="Application.spaced" />
-        <item itemvalue="Application.gridcow" />
-        <item itemvalue="Application.DanceMooves_Silver" />
+        <item itemvalue="Application.stone" />
+        <item itemvalue="Application.count" />
+        <item itemvalue="Application.StoneGame_Gold" />
+        <item itemvalue="Application.picowso" />
+        <item itemvalue="Application.temp" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +164,11 @@
       <workItem from="1611621629726" duration="1150000" />
       <workItem from="1611622842452" duration="15513000" />
       <workItem from="1611707540978" duration="608000" />
+      <workItem from="1614407766274" duration="8171000" />
+      <workItem from="1614478942572" duration="12997000" />
+      <workItem from="1614567921518" duration="20096000" />
+      <workItem from="1614661082810" duration="10335000" />
+      <workItem from="1617432012513" duration="160000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1611386704052</created>
@@ -173,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611386704052</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1614407800375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614407800375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +215,11 @@
           <line>28</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CounttheCows_Gold.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>
           <line>5</line>
@@ -211,6 +227,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/CounttheCows_Gold.java</url>
+          <line>98</line>
+          <properties class="count" method="calculate">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
