@@ -1,0 +1,107 @@
+import java.util.*;
+
+public class Portals_Gold {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        int[][] adjacencyList = new int[2 * n + 1][2];
+        int[] iofcosts = new int[n];
+        int[][] costs = new int[2 * n + 1][2]; //portal = 2 index of cost
+        for (int i = 0; i < n; i++) {
+            iofcosts[i] = sc.nextInt();
+            int[] portals = new int[]{sc.nextInt(), sc.nextInt(), sc.nextInt(), sc.nextInt()};
+            if (adjacencyList[portals[0]][0] == 0) adjacencyList[portals[0]][0] = portals[1];
+            else adjacencyList[portals[0]][1] = portals[1];
+            if (adjacencyList[portals[1]][0] == 0) adjacencyList[portals[1]][0] = portals[0];
+            else adjacencyList[portals[1]][1] = portals[0];
+            if (adjacencyList[portals[2]][0] == 0) adjacencyList[portals[2]][0] = portals[3];
+            else adjacencyList[portals[2]][1] = portals[3];
+            if (adjacencyList[portals[3]][0] == 0) adjacencyList[portals[3]][0] = portals[2];
+            else adjacencyList[portals[3]][1] = portals[2];
+            if (costs[portals[0]][0] == 0) costs[portals[0]][0] = i;
+            else costs[portals[0]][1] = i;
+            if (costs[portals[1]][0] == 0) costs[portals[1]][0] = i;
+            else costs[portals[1]][1] = i;
+            if (costs[portals[2]][0] == 0) costs[portals[2]][0] = i;
+            else costs[portals[2]][1] = i;
+            if (costs[portals[3]][0] == 0) costs[portals[3]][0] = i;
+            else costs[portals[3]][1] = i;
+        }
+
+        boolean[] visited = new boolean[2 * n + 1];
+        int[][] groups = new int[n][2]; //costs; 2 groups
+        HashSet<Integer> visitedCosts = new HashSet<>();
+        HashSet<Integer> commonCosts = new HashSet<>();
+        int count = 0;
+        for (int i = 1; i < 2 * n + 1; i++) {
+            if (!visited[i]) {
+                count++;
+                Stack<Integer> dfs = new Stack<>();
+                dfs.add(i);
+                HashSet<Integer> groupCosts = new HashSet<>();
+                while (!dfs.isEmpty()) {
+                    int curr = dfs.pop();
+                    if (!visited[curr]) {
+                        if (groups[costs[curr][0]][0] == 0) groups[costs[curr][0]][0] = count;
+                        else groups[costs[curr][0]][1] = count;
+                        if (groups[costs[curr][1]][0] == 0) groups[costs[curr][1]][0] = count;
+                        else groups[costs[curr][1]][1] = count;
+                        if (!groupCosts.contains(costs[curr][0])) {
+                            if (!visitedCosts.contains(costs[curr][0])) {
+                                visitedCosts.add(costs[curr][0]);
+                            } else commonCosts.add(costs[curr][0]);
+                            groupCosts.add(costs[curr][0]);
+                        }
+                        if (!groupCosts.contains(costs[curr][1])) {
+                            if (!visitedCosts.contains(costs[curr][1])) {
+                                visitedCosts.add(costs[curr][1]);
+                            } else commonCosts.add(costs[curr][1]);
+                            groupCosts.add(costs[curr][1]);
+                        }
+                        dfs.add(adjacencyList[curr][0]);
+                        dfs.add(adjacencyList[curr][1]);
+                        visited[curr] = true;
+                    }
+                }
+            }
+        }
+        int[][] costMatrix = new int[count][count];
+        for (int i = 0; i < n; i++) {
+            if (commonCosts.contains(i)) {
+                if (costMatrix[groups[i][0] - 1][groups[i][1] - 1] == 0)
+                    costMatrix[groups[i][0] - 1][groups[i][1] - 1] = iofcosts[i];
+                else
+                    costMatrix[groups[i][0] - 1][groups[i][1] - 1] = Math.min(costMatrix[groups[i][0] - 1][groups[i][1] - 1], iofcosts[i]);
+                if (costMatrix[groups[i][1] - 1][groups[i][0] - 1] == 0)
+                    costMatrix[groups[i][1] - 1][groups[i][0] - 1] = iofcosts[i];
+                else
+                    costMatrix[groups[i][1] - 1][groups[i][0] - 1] = Math.min(costMatrix[groups[i][1] - 1][groups[i][0] - 1], iofcosts[i]);
+            }
+        }
+
+        int ans = 0;
+
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(o -> o[1]));
+        pq.add(new int[]{0, 0});
+        HashSet<Integer> mstVisited = new HashSet<>();
+        while (mstVisited.size() < costMatrix.length) {
+            int[] a = pq.poll();
+            if (!mstVisited.contains(a[0])) {
+                ans += a[1];
+                mstVisited.add(a[0]);
+                for (int i = 0; i < costMatrix.length; i++) {
+                    if (i == a[0]) continue;
+                    if (!mstVisited.contains(i)) {
+                        pq.add(new int[]{i, costMatrix[a[0]][i]});
+                    }
+                }
+            }
+        }
+
+        System.out.println(ans);
+
+    }
+}

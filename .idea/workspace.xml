@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923ccc72-268c-4f90-bf69-a453fdd3810e" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/Alts/picowso.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CounttheCows_Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ModernArt3_Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StoneGame_Gold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Permutation_Gold_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Permutation_Gold_Alt2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/Portals_Gold.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Alts/UnitedCowsofFarmerJohn_Gold_Alt1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Permutation_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Permutation_Gold_brute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Portals_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitedCowsofFarmerJohn_Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cheese.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Alts/picowso.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Alts/ModernArt3_Gold_Alt1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CounttheCows_Gold.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CounttheCows_Gold.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../USACO-Gold" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -69,49 +77,60 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.stone">
-    <configuration name="StoneGame_Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StoneGame_Gold" />
+  <component name="RunManager" selected="Application.Permutation_Gold_brute">
+    <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="count" />
+    <configuration name="Permutation_Gold_brute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutation_Gold_brute" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="picowso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="picowso" />
+    <configuration name="Portals_Gold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Portals_Gold" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="stone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stone" />
+    <configuration name="cheese" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cheese" />
       <module name="USACO_Competition" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="temp" />
+    <configuration name="ucfj" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ucfj" />
       <module name="USACO_Competition" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.stone" />
-        <item itemvalue="Application.count" />
-        <item itemvalue="Application.StoneGame_Gold" />
-        <item itemvalue="Application.picowso" />
-        <item itemvalue="Application.temp" />
+        <item itemvalue="Application.Permutation_Gold_brute" />
+        <item itemvalue="Application.Permutation" />
+        <item itemvalue="Application.Portals_Gold" />
+        <item itemvalue="Application.ucfj" />
+        <item itemvalue="Application.cheese" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +188,8 @@
       <workItem from="1614567921518" duration="20096000" />
       <workItem from="1614661082810" duration="10335000" />
       <workItem from="1617432012513" duration="160000" />
+      <workItem from="1617432468643" duration="3013000" />
+      <workItem from="1617475993617" duration="97329000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1611386704052</created>
@@ -217,8 +238,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/CounttheCows_Gold.java</url>
-          <line>86</line>
+          <line>46</line>
           <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Permutation.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Where_Am_I_Bronze.java</url>
@@ -230,14 +256,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/CounttheCows_Gold.java</url>
-          <line>98</line>
-          <properties class="count" method="calculate">
+          <line>49</line>
+          <properties class="CounttheCows_Gold" method="calculate">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Permutation_Gold.java</url>
+          <line>219</line>
+          <properties class="Permutation_Gold" method="update">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="value" />
+        <PinnedItemInfo parentTag="java.lang.String" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/USACO_Competition$Fencing_Silver.ic" NAME="Fencing_Silver Coverage Results" MODIFIED="1608600460932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
